@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("https://i.picsum.photos/id/0/5616/3744.jpg");
+  
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  
+  /* Full height */
+  height: 100%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="bg-image"></div>
+
+<div class="bg-text">
+  
+  <h1 style="font-size:50px">I am Raghav Khandelwal</h1>
+  <p>And i'm web developer</p>
+</div>
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<STYLE>
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+<div class="logo">
+<h1 STYLE="TEXT-ALIGN:CENTER;">PLAN YOURSELF</h1></div>
+<style type="text/css">
+  .logo h1{
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    animation: rl 2s linear infinite;
+  }
+  @keyframes rl{
+    from{padding-left: 40px;}
+    to{padding-right: 40px;}
+  }
+</style>
+<style>
+body {
+  padding: 25px;
+  background-color: PALEWHITE;
+  color: black;
+  font-size: 25px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+</style>
+</head>
+<body>
+<div>
+<button  style="text-shadow:.5px .9px; border-radius:30px; display: flex;"onclick="myFunction1()"> Dark mode</button>
+
+<script>
+function myFunction1() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+<!DOCTYPE html>
+<html>
+<body>
+
+<H3> RAGHAV KHANDELWAL</H3>
+<P ></P>
+
+<button onclick="typeWriter()">ABOUT ME</button>
+
+<p id="demo"></p>
+
+
+
+<script>
+var i = 0;
+var txt = 'HEY !!:) NICE TO MEET YOU, I AM AN FRONTEND DEVELOPER GRADUATED IN ELECTRONICS AND TELECOMMUNICATION DEPARTMENT OF ENGINEERING. I HAVE VAST KNOWLEDGE IN FIELD OF WEBSITE DEVELOPMENT AND DEPLOYMENT WITH BUILDING WEB APPS FROM SCRATCH TO FULL STACK now you just simply heck out the things and make yourself an list . ';
+var speed = 150;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+</script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 279px; 
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+<h2 style="text-align:center;">Basics of JS</h2>
+
+<div class="row">
+  <div class="column" style="background-color:#aaa;">
+    <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flip-box {
+  background-color: transparent;
+  width: 210px;
+  height: 280px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 40s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-box-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+</style>
+</head>
+<body>
+
+
+
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+     <body>
+<h1 id="heya" style="text-transform: capitalize;text-align: center;text-shadow: 2px 1px; color:pink;">this will show you the time </h1>
+<script type="text/javascript">// what did i do nothing just used the css html till now ab mai ek variable initialise kardunga taki usko hum timing events ke saath khel paaye setinterval continuous repeat karta hai khud ko vahi set timeout ek baar hi batata hai 
+  var raghav = setInterval(huh,3000);// idhar humne ek function define kiyahai huh firr 1000 jo hai vo millisecond hai iska format yaa syantax hi isi prakar kaa hota hai 
+  function huh(){
+    var d = new Date();// idhar humne bataya ki samay kaise lena hai
+    document.getElementById("heya").innerHTML = d.toLocaleTimeString();// id call ki localestring se humne time ko display kara diya baddiya ekdum
+  }
+</script>
+</body>
+    </div>
+    <div class="flip-box-back">
+      <h2>time is running</h2>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+    
+  </div>
+  <div class="column" style="background-color:#bbb;">
+     <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flip-box {
+  background-color: transparent;
+  width: 210px;
+  height: 279px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 20s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(150deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-box-back {
+  background-color: olive;
+  color: white;
+  transform: rotateY(180deg);
+}
+</style>
+</head>
+<body>
+
+
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+       <address id="hey1">Time is Ilusion</address>
+                                          <button type="button" onclick="getElementById('hey1').innerHTML = Date()" >DATE</button>
+                                          
+    </div>
+    <div class="flip-box-back">
+    <address> Here I am using js to know date </address>
+      
+    </div>
+  </div>
+</div>
+<div>
+
+</div>
+</body>
+</html>
+   
+  </div>
+  <div class="column" style="background-color:#ccc;">
+    
+    <html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flip-box {
+  background-color: transparent;
+  width: 212px;
+  height: 279px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 22s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateX(130deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-box-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateX(180deg);
+}
+</style>
+</head>
+<body>
+
+
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <h1 style="text-shadow: 2px 1px; text-align: center; text-transform: capitalize;">A Few Things About you</h1>
+
+<form action="/action_page.php" method="post">
+
+                                                                             <!-- here i used an form jisko maine action diya hai taki it tells us ki bhai kyaa baat kyaa hai ecatly on browser-->
+
+  <ol>
+
+                                                                             <!--unorderd list jiske under li aata hai ye ek ke nice laga denge taki fayda to ho hi dikne me bhi achaa lage samne vale ko -->
+    <li>
+      <input type="text" name="first name" placeholder="your first name" required>
+<!-- here what is we doing ki hamara ek input ho jo text type kaa ho taaki user se usse information le sake yaa whatever whatever  required (ek type ka attribute hota hai )isse kyaa hoga ki jab user apni info bina fill kiye form ko submit karega to vo nahi hoga-->    </li>
+    <li>
+      <input type="text" name="last name" placeholder="your last name" required>
+
+    </li>
+    <li>
+      <input type="text" name="job name" placeholder=" field you wanna work" required>
+
+    </li>
+    <li>
+      <input type="text" name="college name" placeholder="your college name" required>
+
+    </li>
+    <input type="submit" value="submit" style="text-shadow: 1px 2px;">
+  </ol>
+</form>
+
+            
+      <body>
+    </div>
+    <div class="flip-box-back">
+      <h2>just to know you well </h2>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+  </div>
+</div>
+
+</body>
+</html>
+
+
+
+
+</body>
+<div><body>
+  <div>
+  <div class="container">
+    <div class="row">
+      <div class="intro col-12">
+        <h1 style="text-transform: capitalize;text-shadow: 1px 2px; text-decoration: none; text-align:center; color: cyan;"> To-Do list</h1>
+        <div>
+          <div class="border1"></div>
+          <div c
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="helpText col-12">
+        <p id="first">Enter what's in your mind .</p>
+        
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12">
+        <input style="background-color: pink;" id="userInput" type="text" placeholder="plan yourself " maxlength="27">
+        <button id="enter"><i class="fas fa-pencil-alt"></i> click</button>
+      </div>
+    </div>
+
+    <!-- Empty List -->y
+    <div class="row">
+      <div class="listItems col-12">
+        <ul class="col-12 offset-0 col-sm-6 offset-sm-2">
+        </ul>
+      </div>
+    </div>
+
+  </div>
+  <script type="text/javascript" src="script_method3.js"></script>
+    <style>
+
+p {
+  font-weight: 600;
+}
+
+#first {
+  margin-top: 10px;
+  color: purple;
+}
+
+
+
+
+#enter {
+  border: 4px;
+  padding: 5px 15px;
+  border-radius: 5px;
+  color: pink;
+  background-color: #025F70;
+  transition: all 0.75s ease;
+  
+  font-weight: normal;
+}
+
+#enter:hover{
+  background-color: #02798F;
+  color: #FFCD5D;
+}
+
+ul {
+  text-align: left;
+  margin-top: 20px;
+}
+
+
+li {
+  list-style: none;
+  padding: 10px 20px;
+  color: #ffffff;
+  text-transform: capitalize;
+  font-weight: 600;
+  border: 2px solid #025f70;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background: #4EB9CD;
+  transition: all 0.75s ease;
+  
+}
+
+li:hover {
+  background: #76CFE0;
+}
+
+li > button {
+  font-weight: normal;
+  background: none;
+  border: none;
+  float: right;
+  color: #025f70;
+  font-weight: 800;
+}
+
+input {
+  border-radius: 55px;
+  min-width: 65%;
+  padding: 5px;
+  border: none;
+}
+
+
+.done {
+  background: #51DF70 !important;
+  color: #00891E;
+}
+
+.delete {
+  display: none;
+}</style>
+<script>var enterButton = document.getElementById("enter");
+var input = document.getElementById("userInput");
+var ul = document.querySelector("ul");
+var item = document.getElementsByTagName("li");
+
+function inputLength(){
+  return input.value.length;
+} 
+
+function listLength(){
+  return item.length;
+}
+
+function createListElement() {
+  var li = document.createElement("li"); // creates an element "li"
+  li.appendChild(document.createTextNode(input.value)); //makes text from input field the li text
+  ul.appendChild(li); //adds li to ul
+  input.value = ""; //Reset text input field
+
+
+  //START STRIKETHROUGH
+  // because it's in the function, it only adds it for new items
+  function crossOut() {
+    li.classList.toggle("done");
+  }
+
+  li.addEventListener("click",crossOut);
+  //END STRIKETHROUGH
+
+
+  // START ADD DELETE BUTTON
+  var dBtn = document.createElement("button");
+  dBtn.appendChild(document.createTextNode("X"));
+  li.appendChild(dBtn);
+  dBtn.addEventListener("click", deleteListItem);
+  // END ADD DELETE BUTTON
+
+
+  //ADD CLASS DELETE (DISPLAY: NONE)
+  function deleteListItem(){
+    li.classList.add("delete")
+  }
+  //END ADD CLASS DELETE
+}
+
+
+function addListAfterClick(){
+  if (inputLength() > 0) { //makes sure that an empty input field doesn't create a li
+    createListElement();
+  }
+}
+
+function addListAfterKeypress(event) {
+  if (inputLength() > 0 && event.which ===13) { //this now looks to see if you hit "enter"/"return"
+    //the 13 is the enter key's keycode, this could also be display by event.keyCode === 13
+    createListElement();
+  } 
+}
+
+
+enterButton.addEventListener("click",addListAfterClick);
+
+input.addEventListener("keypress", addListAfterKeypress);</script>
+    </div>
+</body>
+<!DOCTYPE html>
+<html>
+<div>
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+form {
+  border: 3px solid #f1f1f1;
+  font-family: Arial;
+}
+
+.container {
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+input[type=text], input[type=submit] {
+  width: 38%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  BORDER-RADIUs:89px;
+}
+
+
+input[type=submit] {
+  background-color: gray;
+  color: white;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 1.8;
+}
+</style>
+<body>
+
+
+
+<form action="/action_page.php">
+  <div class="container">
+    <h2>Know More</h2>
+    
+  </div>
+
+  <div class="container" style="background-color:white">
+    <input type="text" placeholder="Name" name="name" required>
+    <input type="text" placeholder="Email address" name="mail" required>
+    
+  </div>
+
+  <div class="container">
+    <input type="submit" value="CLICK HERE">
+  </div>
+</form>
+
+</body>
+</div>
+</html>
+
+</body>
+</html>
